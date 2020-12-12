@@ -30,6 +30,8 @@ from .adobetv import (
 from .adultswim import AdultSwimIE
 from .aenetworks import (
     AENetworksIE,
+    AENetworksCollectionIE,
+    AENetworksShowIE,
     HistoryTopicIE,
 )
 from .afreecatv import AfreecaTVIE
@@ -88,10 +90,6 @@ from .bbc import (
     BBCCoUkIPlayerPlaylistIE,
     BBCCoUkPlaylistIE,
     BBCIE,
-)
-from .beampro import (
-    BeamProLiveIE,
-    BeamProVodIE,
 )
 from .beeg import BeegIE
 from .behindkink import BehindKinkIE
@@ -393,6 +391,7 @@ from .frontendmasters import (
     FrontendMastersLessonIE,
     FrontendMastersCourseIE
 )
+from .fujitv import FujiTVFODPlus7IE
 from .funimation import FunimationIE
 from .funk import FunkIE
 from .fusion import FusionIE
@@ -531,7 +530,10 @@ from .laola1tv import (
     EHFTVIE,
     ITTFIE,
 )
-from .lbry import LBRYIE
+from .lbry import (
+    LBRYIE,
+    LBRYChannelIE,
+)
 from .lci import LCIIE
 from .lcp import (
     LcpPlayIE,
@@ -1039,12 +1041,6 @@ from .sky import (
 from .slideshare import SlideshareIE
 from .slideslive import SlidesLiveIE
 from .slutload import SlutloadIE
-from .smotri import (
-    SmotriIE,
-    SmotriCommunityIE,
-    SmotriUserIE,
-    SmotriBroadcastIE,
-)
 from .snotr import SnotrIE
 from .sohu import SohuIE
 from .sonyliv import SonyLIVIE
@@ -1149,6 +1145,7 @@ from .telequebec import (
     TeleQuebecSquatIE,
     TeleQuebecEmissionIE,
     TeleQuebecLiveIE,
+    TeleQuebecVideoIE,
 )
 from .teletask import TeleTaskIE
 from .telewebion import TelewebionIE
@@ -1185,7 +1182,10 @@ from .tnaflix import (
     EMPFlixIE,
     MovieFapIE,
 )
-from .toggle import ToggleIE
+from .toggle import (
+    ToggleIE,
+    MeWatchIE,
+)
 from .tonline import TOnlineIE
 from .toongoggles import ToonGogglesIE
 from .toutv import TouTvIE
@@ -1218,7 +1218,10 @@ from .tv2dk import (
 from .tv2hu import TV2HuIE
 from .tv4 import TV4IE
 from .tv5mondeplus import TV5MondePlusIE
-from .tva import TVAIE
+from .tva import (
+    TVAIE,
+    QubIE,
+)
 from .tvanouvelles import (
     TVANouvellesIE,
     TVANouvellesArticleIE,
@@ -1227,6 +1230,7 @@ from .tvc import (
     TVCIE,
     TVCArticleIE,
 )
+from .tver import TVerIE
 from .tvigle import TvigleIE
 from .tvland import TVLandIE
 from .tvn24 import TVN24IE
@@ -1478,6 +1482,8 @@ from .yandexmusic import (
     YandexMusicTrackIE,
     YandexMusicAlbumIE,
     YandexMusicPlaylistIE,
+    YandexMusicArtistTracksIE,
+    YandexMusicArtistAlbumsIE,
 )
 from .yandexvideo import YandexVideoIE
 from .yapfiles import YapFilesIE
@@ -1510,6 +1516,7 @@ from .youtube import (
     YoutubeSubscriptionsIE,
     YoutubeTruncatedIDIE,
     YoutubeTruncatedURLIE,
+    YoutubeYtBeIE,
     YoutubeYtUserIE,
     YoutubeWatchLaterIE,
 )

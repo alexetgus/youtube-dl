@@ -35,6 +35,8 @@
  - **adobetv:video**
  - **AdultSwim**
  - **aenetworks**: A+E Networks: A&E, Lifetime, History.com, FYI Network and History Vault
+ - **aenetworks:collection**
+ - **aenetworks:show**
  - **afreecatv**: afreecatv.com
  - **AirMozilla**
  - **AliExpressLive**
@@ -308,6 +310,7 @@
  - **FrontendMasters**
  - **FrontendMastersCourse**
  - **FrontendMastersLesson**
+ - **FujiTVFODPlus7**
  - **Funimation**
  - **Funk**
  - **Fusion**
@@ -421,7 +424,8 @@
  - **la7.it**
  - **laola1tv**
  - **laola1tv:embed**
- - **lbry.tv**
+ - **lbry**
+ - **lbry:channel**
  - **LCI**
  - **Lcp**
  - **LcpPlay**
@@ -486,6 +490,7 @@
  - **META**
  - **metacafe**
  - **Metacritic**
+ - **mewatch**
  - **Mgoon**
  - **MGTV**: 芒果TV
  - **MiaoPai**
@@ -496,8 +501,6 @@
  - **mixcloud**
  - **mixcloud:playlist**
  - **mixcloud:user**
- - **Mixer:live**
- - **Mixer:vod**
  - **MLB**
  - **Mnet**
  - **MNetTV**
@@ -709,6 +712,7 @@
  - **qqmusic:singer**: QQ音乐 - 歌手
  - **qqmusic:toplist**: QQ音乐 - 排行榜
  - **QuantumTV**
+ - **Qub**
  - **Quickline**
  - **QuicklineLive**
  - **R7**
@@ -811,10 +815,6 @@
  - **Slideshare**
  - **SlidesLive**
  - **Slutload**
- - **smotri**: Smotri.com
- - **smotri:broadcast**: Smotri.com broadcasts
- - **smotri:community**: Smotri.com community videos
- - **smotri:user**: Smotri.com user videos
  - **Snotr**
  - **Sohu**
  - **SonyLIV**
@@ -895,6 +895,7 @@
  - **TeleQuebecEmission**
  - **TeleQuebecLive**
  - **TeleQuebecSquat**
+ - **TeleQuebecVideo**
  - **TeleTask**
  - **Telewebion**
  - **TennisTV**
@@ -951,6 +952,7 @@
  - **TVANouvellesArticle**
  - **TVC**
  - **TVCArticle**
+ - **TVer**
  - **tvigle**: Интернет-телевидение Tvigle.ru
  - **tvland.com**
  - **TVN24**
@@ -1132,6 +1134,8 @@
  - **yahoo:japannews**: Yahoo! Japan News
  - **YandexDisk**
  - **yandexmusic:album**: Яндекс.Музыка - Альбом
+ - **yandexmusic:artist:albums**: Яндекс.Музыка - Артист - Альбомы
+ - **yandexmusic:artist:tracks**: Яндекс.Музыка - Артист - Треки
  - **yandexmusic:playlist**: Яндекс.Музыка - Плейлист
  - **yandexmusic:track**: Яндекс.Музыка - Трек
  - **YandexVideo**
@@ -1158,6 +1162,7 @@
  - **youtube:subscriptions**: YouTube.com subscriptions feed, "ytsubs" keyword (requires authentication)
  - **youtube:tab**: YouTube.com tab
  - **youtube:watchlater**: Youtube watch later list, ":ytwatchlater" for short (requires authentication)
+ - **YoutubeYtBe**
  - **YoutubeYtUser**
  - **Zapiks**
  - **Zaq1**
